@@ -89,7 +89,7 @@
 .plans-about {
     display: flex;
     gap: 200px;
-   padding-left: 280px;
+    padding-left: 280px;
 }
 
 .plans-title {
@@ -99,16 +99,17 @@
     padding-top: 130px;
     padding-bottom: 49px;
 }
-img{
+
+/* img {
     padding: 0 30px;
-}
+} */
 
 
 .info-title {
-    
+
     font-size: 30px;
     padding-top: 24px;
-    
+
 
 }
 
@@ -116,5 +117,44 @@ img{
     color: #737272;
     font-weight: 100px;
     font-size: 20px;
+
+}
+
+/* motivation */
+.motivation-info {
+    text-align:center;
+    /* padding-right: 600px; */
+
+
+}
+
+.motivation-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.btn-second {
+    color: #FD6E0A;
+    font-weight: 600;
+    font-size: 20px;
+    height: 64px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FFFFFF;
+
+}
+
+.motivation {
+    padding: 150px 230px;
+    background-image: url("../images/watch.png"),url("../images/gradient1.png");
+
+
+    background-repeat: no-repeat;
+    background-position:center;
+    background-blend-mode:multiply;
+   
 
 }
