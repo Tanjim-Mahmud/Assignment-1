@@ -85,6 +85,9 @@
     font-size: 16px;
     padding-bottom: 20px;
 }
+.plans{
+    text-align: center;
+}
 
 .plans-about {
     display: flex;
@@ -156,10 +159,13 @@
 /* footer */
 .footer {
     display: flex;
-    gap: 100px;
+    gap: 150px;
     background-color: #151414;
     background-size: cover;
-    padding: 130px 230px;
+    padding: 130px 250px;
+    
+}
+.footer a{
     text-decoration: none;
 }
 
