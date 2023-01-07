@@ -100,11 +100,6 @@
     padding-bottom: 49px;
 }
 
-/* img {
-    padding: 0 30px;
-} */
-
-
 .info-title {
 
     font-size: 30px;
@@ -122,9 +117,8 @@
 
 /* motivation */
 .motivation-info {
-    text-align:center;
-    /* padding-right: 600px; */
-
+    padding: 183px 294px;
+    text-align: center;
 
 }
 
@@ -149,12 +143,59 @@
 
 .motivation {
     padding: 150px 230px;
-    background-image: url("../images/watch.png"),url("../images/gradient1.png");
+    background-image: url("../images/watch.png"), url("../images/gradient1.png");
 
 
     background-repeat: no-repeat;
-    background-position:center;
-    background-blend-mode:multiply;
-   
+    background-position: center;
+    background-blend-mode: multiply;
+
+
+}
+
+/* footer */
+.footer {
+    display: flex;
+    gap: 100px;
+    background-color: #151414;
+    background-size: cover;
+    padding: 130px 230px;
+    text-decoration: none;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    padding-bottom: 30px;
+}
+
+.info {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #F8F8F8;
+    padding-bottom: 30px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #F8F8F8;
+    padding-bottom: 24px;
+}
+
+.form input {
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border: 0;
+    border-radius: 5px;
 
 }
